@@ -1,0 +1,51 @@
+.grid2x4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: gray;
+    padding: 0 70px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.grid2x4 img {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+
+}
+
+.footer {
+    width: 94.4%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 50px;
+}
+
+figure {
+    background-color: white;
+}
+
+figcaption {
+    color: cornflowerblue;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    width: 83%;
+    font-weight: bold;
+}
+
+.grid2x4 p {
+    width: 83%;
+    margin: 1rem auto;
+}
+
+footer h2 {
+    color: turquoise;
+    display: block;
+    width: 83%;
+    margin: 1rem auto 28px auto;
+    font-size: 1rem;
+}

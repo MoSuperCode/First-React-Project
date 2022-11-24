@@ -1,0 +1,74 @@
+.section {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.articleGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0 10rem;
+    text-align: left;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.sectionH1 {
+    font-size: 3rem;
+    width: 80%;
+    margin: 0 auto 6% auto;
+}
+
+.green {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.sectionP {
+    width: 460px;
+    line-height: 32px;
+    margin-left: 2rem
+}
+
+
+
+.brush::before {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    content: "";
+    background: url("../../images/brush.svg") no-repeat 0 0;
+    background-size: 30px 30px;
+
+}
+
+.object::before {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    content: "";
+    background: url("../../images/object-select.svg") no-repeat 0 0;
+    background-size: 30px 30px;
+}
+
+.megaphone::before {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    content: "";
+    background: url("../../images/megaphone.svg") no-repeat 0 0;
+    background-size: 30px 30px;
+}
+
+.globe::before {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    content: "";
+    background: url("../../images/globe-line.svg") no-repeat 0 0;
+    background-size: 30px 30px;
+}
